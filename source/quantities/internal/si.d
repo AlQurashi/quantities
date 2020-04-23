@@ -77,6 +77,9 @@ mixin template SIDefinitions(N)
     enum ton = 1e3 * kilogram; /// ditto
     enum electronVolt = 1.60217653e-19 * joule; /// ditto
     enum dalton = 1.66053886e-27 * kilogram; /// ditto
+    enum au = 1.495978707e+11 * meter; ///ditto
+    enum lightyear = 9.46073047258e+15 * meter; //ditto
+    enum pc = 3.26 * lightyear; //ditto
 
     /// SI prefixes.
     alias yotta = prefix!1e24;
